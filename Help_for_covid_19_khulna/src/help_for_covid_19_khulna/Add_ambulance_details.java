@@ -191,11 +191,7 @@ public class Add_ambulance_details extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        homepage ab = new homepage();
-        ab.setVisible(true);
-        ab.pack();
-        ab.setLocationRelativeTo(null);
-        this.dispose();        // TODO add your handling code here:
+      new homepage().setVisible(true);        // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
