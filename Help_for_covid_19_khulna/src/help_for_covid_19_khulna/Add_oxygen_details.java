@@ -157,6 +157,7 @@ public class Add_oxygen_details extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 Connection con1;
 PreparedStatement insert;
